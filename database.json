@@ -1,22 +1,44 @@
 {
     "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Parsley", "breed": "Great Dane" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
+        { "id": 1, "name": "Doodles", "breed": "Poodle", "customerId": 1, "locationId": 1},
+        { "id": 2, "name": "Parsley", "breed": "Great Dane", "customerId": 2, "locationId": 2},
+        { "id": 3, "name": "Esme", "breed": "Pitbull", "customerId": 2, "locationId": 2}
     ],
     "customers": [
         {
             "id": 1,
             "name": "Luke Skywalker",
-            "address": "976 Tatooine Dr."
+            "address": "976 Tatooine Dr.",
+            "animalId": 1,
+            "locationId": 1
         },
          {
             "id": 2,
             "name": "Padmé Amidala",
-            "address": "1211 Naboo Lane"
+            "address": "1211 Naboo Lane",
+            "animalId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "name": "Darth Vader",
+            "address": "1001 Darth Lane",
+            "animalId": 3,
+            "locationId": 2
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Bill Adams",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Fill Fladams",
+            "locationId": 2
+        }
+    ],
     "locations": [
         {
             "id": 1,
